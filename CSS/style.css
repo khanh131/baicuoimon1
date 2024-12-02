@@ -1,0 +1,171 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+body{
+	font-family: "Poppins", sans-serif;font-size: 16px; color: #666666;margin: 0
+}
+
+header{
+	width: 100%;height: 70px;background-color: #3C3C3C;border-bottom: 3px solid #E8CF59
+}
+.menu{
+	padding-top: 15px
+}
+.menu ul{
+	margin: 0;padding: 0;list-style: none;display: flex
+}
+.menu ul li a{
+	padding: 10px 20px;text-decoration: none;font-size: 17px;text-transform: uppercase;color:aliceblue;
+}
+.menu ul li a:hover{
+	background-color: darkred;color: #FFDD00
+}
+/*phan carousel*/
+#slide .owl-dots{ position:absolute; bottom: 10px; left:45%;}
+#slide .owl-dots .owl-dot span {
+      width: 12px;
+      height: 12px; 	
+}
+
+#slide .owl-nav { position:absolute; left:0px; top:40%; width:100%; }
+#slide .owl-nav [class*='owl-'] {
+	font-size:80px; /*background:rgba(255,255,255,.5);border:1px solid #fff; */ color:#E8CF59
+}
+
+#slide .owl-nav .owl-next{ position:absolute; right:5%;}
+#slide .owl-nav .owl-prev{ position:absolute; left:5%;}
+#slide .owl-nav [class*='owl-']:hover {
+      background:none;border: none;
+      color:aliceblue;
+      text-decoration: none; }
+/*phần main*/
+main{
+	width: 100%;min-height: 500px
+}
+.text-red{
+	color: #FF0004
+}
+.text-do{
+	color: #868686
+}
+aside ul{
+	margin: 0;padding: 0;list-style: none;display: flex;flex-direction: column
+}
+aside ul li a{
+	padding: 10px; display: block;text-decoration: none;color: #666666;font-size: 17px
+}
+aside ul li{
+	border-bottom: 1px solid gray
+}
+aside ul li a:hover{
+	background-color: darkred;color: white
+}
+.text-den{
+	color: black
+}
+.text-center{
+	text-align: center
+}
+footer{
+	width: 100%;min-height: 200px;background-color: #B8B8B8
+}
+.bg-xanh{
+	background-color: #78BEF8;min-height: 200px;text-align: center
+}
+footer .lg{
+	text-decoration: none;font-size: 18px;font-weight: bold;color: #3E3E3E
+}
+footer .lg:hover{
+	color: darkred
+}
+footer a{
+	color: #3D3D3D;margin-right: 5px
+}
+footer a:hover{
+	color: darkred
+}
+footer ul{
+	margin: 0;padding: 0;list-style: none;display: flex;flex-direction: column
+}
+footer ul li a{
+	padding: 10px;display: block;text-decoration: none
+}
+/* phần Footer */
+.footer {
+  background-color: #2d2d2d;
+  color: #fff;
+  padding: 40px 0;
+  font-family: Arial, sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer-about, .footer-links, .footer-contact {
+  width: 30%;
+}
+
+.footer-about h3, .footer-links h3, .footer-contact h3 {
+  font-size: 1.8em;
+  margin-bottom: 10px;
+  color: #f39c12; /* Màu vàng nhạt đặc trưng của Neymar Sport */
+}
+
+.footer-about p, .footer-contact p {
+  font-size: 1em;
+  line-height: 1.5;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links ul li {
+  margin: 10px 0;
+}
+
+.footer-links ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1em;
+  transition: color 0.3s ease;
+}
+
+.footer-links ul li a:hover {
+  color: #f39c12;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding-top: 20px;
+  border-top: 1px solid #444;
+  margin-top: 20px;
+}
+
+.footer-bottom p {
+  font-size: 0.9em;
+}
+
+/* Đảm bảo footer phản hồi tốt trên các thiết bị di động */
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer-about, .footer-links, .footer-contact {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+}
